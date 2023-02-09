@@ -1,0 +1,35 @@
+/* stylelint-disable color-function-notation */
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 60%);
+  --animation-color: #37f8ff;
+
+  margin-left: 3vw;
+  text-decoration: none;
+  font-size: 2.5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+}
