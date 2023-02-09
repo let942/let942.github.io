@@ -18,13 +18,13 @@ function ErrorPage() {
       <NavBar />
       <main className='main-size'>
         <Container fluid id="error-page" className='container-nfound bg-light'>
-          <h1>Oops!</h1>
-          <p>Desculpa, um erro ocorreu.</p>
+          <h1>404</h1>
+          <p>Parece que ocorreu um erro.</p>
           <p>
             <i>{error.statusText || error.message}</i>
           </p>
           <Link to='/'>
-            <Button variant='dark'>Vamos para Home!</Button>
+            <Button variant='dark'>Voltar para a página principal!</Button>
           </Link>
         </Container>
       </main>
