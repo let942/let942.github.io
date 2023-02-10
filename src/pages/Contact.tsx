@@ -1,22 +1,16 @@
-import './Profile.css';
+import './Contact.css';
 
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
-import { Link } from 'react-router-dom';
-import React from 'react';
 import github from '../assets/svg/github.svg';
 import linkedin from '../assets/svg/linkedin.svg';
-import profilePicture from '../assets/jpeg/me.jpg';
 
 function Contact() {
   return (
     <>
-      <Container fluid className='container-profile'>
+      <Container fluid className='contact-profile'>
         <div className='mt-5'>
-      
           <div className='d-flex justify-content-evenly mt-5'>
+            <h2>email: let942@gmail.com</h2>
             <a className='mx-2' href='https://www.linkedin.com/in/leticia-chagas-marques/' target='_blank' rel='noreferrer'>
               <img className='sm' src={linkedin} alt='LinkedIn icon' />
             </a>
