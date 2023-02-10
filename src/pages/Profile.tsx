@@ -29,13 +29,10 @@ function Profile() {
               <Link to="/projects" className="text-decoration-none text-reset">Meu Portifólio</Link>
             </Button>
           </ButtonGroup>
-          <div className='d-flex justify-content-evenly mt-5'>
-            <a className='mx-2' href='https://www.linkedin.com/in/leticia-chagas-marques/' target='_blank' rel='noreferrer'>
-              <img className='sm' src={linkedin} alt='LinkedIn icon' />
-            </a>
-            <a href='https://github.com/let942' target='_blank' rel='noreferrer'>
-              <img className='sm' src={github} alt='Github icon' />
-            </a>
+          <div className=' mt-5 mb-5'>
+            <p>Olá, eu sou Letícia Chagas, tenho graduação e mestrado na área de Ciências Biologia e atualmente estou abraçando o desafio de me tornar uma desenvolvedora Full-Stack. Possuo ampla experiência em organização de eventos e em atendimento ao público. Criatividade, organização e resolução de problemas são meus principais talentos. </p>
+            <p>Trabalho para promover com inovação soluções inteligentes no domínio tecnológico e acredito honestamente que relações genuínas com as pessoas são a chave transformar o mundo.</p>
+            <p>Eu adoro tecnologia, música, jogos, artigos de papelaria e arte.</p>
           </div>
         </div>
       </Container >
