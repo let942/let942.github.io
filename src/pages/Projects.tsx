@@ -20,7 +20,54 @@ function Projects() {
       
       <div className='mt-3 mb-1 d-flex  ' > 
       
-      
+      <Card style={{ width: '18rem' }}>
+      {/* <Card.Img variant="top" src="svg/github.svg" /> */}
+      <Card.Body>
+        <Card.Title>Calculator</Card.Title>
+        <Card.Text>
+        Uma calculadora desenvolvida em JavaScript com estrutura em html e CSS
+        </Card.Text>
+        <Button variant="info">
+
+        <a className='mx-2' href='https://github.com/let942/calculator' target='_blank' rel='noreferrer'>
+        Acesse o repositório
+            </a>
+        </Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      {/* <Card.Img variant="top" src="svg/github.svg" /> */}
+      <Card.Body>
+        <Card.Title>Movie-manager</Card.Title>
+        <Card.Text>
+          Uma API para gerenciar filmes em TypeScript
+        </Card.Text>
+        <Button variant="info">
+
+        <a className='mx-2' href='https://github.com/let942/movie-manager' target='_blank' rel='noreferrer'>
+        Acesse o repositório
+            </a>
+        </Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      {/* <Card.Img variant="top" src="svg/github.svg" /> */}
+      <Card.Body>
+        <Card.Title>Trybesmith</Card.Title>
+        <Card.Text>
+        Um CRUD (Create, Read, Update and Delete) de itens medievais no formato de uma API, utilizando Typescript. Foram criados endpoints que leem e escrevem em um banco de dados, utilizando o MySQL.
+        </Card.Text>
+        <Button variant="info">
+
+        <a className='mx-2' href='https://github.com/let942/trybe-trybesmith' target='_blank' rel='noreferrer'>
+        Acesse o repositório
+
+            </a>
+        </Button>
+      </Card.Body>
+    </Card>
       
       </div>
           

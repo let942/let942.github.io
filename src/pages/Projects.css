@@ -1,9 +1,4 @@
-.profile-picture {
-  width: 200px;
-  height: 200px;
-}
-
-.container-profile {
+.container-projects {
   text-align: center;
   min-height: 100%;
   display: flex;
@@ -12,12 +7,12 @@
   justify-content: center;
 }
 
-.container-profile h1 {
+.container-projects h1 {
   font-family: "Space Mono", monospace;
   font-size: clamp(1.5em, 1.5em + 1.5vw, 2em);
 }
 
-.container-profile h2 {
+.container-projects h2 {
   font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
