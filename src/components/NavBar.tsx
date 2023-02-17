@@ -9,7 +9,7 @@ import React from 'react';
 function NavBar() {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
-        <Navbar.Brand href="#home">&lt; Letícia Chagas Marques &gt;</Navbar.Brand>
+        <Navbar.Brand href="#/">&lt; Letícia Chagas Marques &gt;</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto"> {/* justify-content-center */}
